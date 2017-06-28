@@ -1,0 +1,40 @@
+{
+  "name": "bacio-site",
+  "version": "1.0.0",
+  "description": "Bacio Site",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrknaff/bacio-site.git"
+  },
+  "author": "Lacey Knaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lrknaff/bacio-site/issues"
+  },
+  "homepage": "https://github.com/lrknaff/bacio-site#readme",
+  "dependencies": {
+  "babel-core": "^6.25.0",
+  "babel-loader": "^7.0.0",
+  "body-parser": "^1.16.1git ",
+  "chai": "^4.0.2",
+  "css-loader": "^0.28.4",
+  "express": "^4.14.1",
+  "html-webpack-plugin": "^2.28.0",
+  "jquery": "^3.1.1",
+  "lightbox2": "^2.9.0",
+  "mocha": "^3.4.2",
+  "mocha-loader": "^1.1.1",
+  "node-sass": "^4.5.3",
+  "nodemon": "^1.11.0",
+  "sass-loader": "^6.0.5",
+  "style-loader": "^0.18.2",
+  "webpack": "^2.6.1",
+  "webpack-dev-server": "^2.4.5"
+  }
+}
